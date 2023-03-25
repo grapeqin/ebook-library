@@ -1,0 +1,15 @@
+{
+  "name": "epub-books",
+  "version": "1.0.0",
+  "description": "自动根据电子书列表生成Readme表格",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "table": "^6.8.1"
+  }
+}
