@@ -4,7 +4,7 @@
   "description": "自动根据电子书列表生成Readme表格",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate-readme": "node index.js"
   },
   "author": "",
   "license": "ISC",
