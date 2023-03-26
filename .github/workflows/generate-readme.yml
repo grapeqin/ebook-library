@@ -5,19 +5,14 @@ on:
     branches:
       - dev
       
-permissions:
-  pull-requests: write
-  issues: write
-  repository-projects: write
-
 jobs:
   generate-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
