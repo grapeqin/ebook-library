@@ -20,7 +20,7 @@ const items = fs.readdirSync(dirPath)
 const readme = ejs.render(template,{ items });
 console.log(readme)
 
-const destFileName = "readme.md";
+const destFileName = "README.md";
 fs.writeFile(destFileName,readme,(err) =>{
   if(err) throw err;
 });
