@@ -32,4 +32,4 @@
 | 标题          | 地址                                        |
 |:------------|:------------------------------------------|
 | 1、Go语言设计与实现 | [Go语言设计与实现](https://draveness.me/golang/) |
-|             |                                           |
+| 2、Kubernetes指南  | [Kubernetes指南](https://kubernetes.feisky.xyz/) |
