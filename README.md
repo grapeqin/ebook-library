@@ -6,6 +6,8 @@
 
 # 计算机
   
+- [ChatGPT](ChatGPT.pdf) 
+  
 - [On-Java-8_Zh_latest](On-Java-8_Zh_latest.epub) 
   
 - [redis设计与实现(第二版)](redis设计与实现(第二版).epub) 
